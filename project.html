@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(5, 5, 46);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(20, 20, 59);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(96, 48, 96);
+      font-size: 0.9991rem;
+      font-style: italic;
+    }
+
+    main hr {
+      background: red;
+      border: 0;
+      height: 1.2px;
+      margin: 40px 87px;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .right {
+      color: rgb(102, 40, 159);
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 130px 0;
+    }
+
+    .firstsection>div {
+      width: 45%;
+    }
+
+    .leftsection {
+      font-size: 3rem;
+      margin: 70px 0;
+      margin-left: 70px;
+    }
+
+    .leftsection .button{
+      padding: 50px 0px;
+    }
+
+    .leftsection .btn {
+      padding: 12px;
+      background: rgb(80, 47, 116);
+      color: white;
+      border: 2px solid wheat;
+      border-radius: 11px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .rightsection img {
+      width: 80%;
+    }
+
+    .purple {
+      color: blueviolet;
+    }
+
+    .secondsection .texy-grey {
+      color: #a984d1;
+    }
+
+    #element {
+      color: blueviolet;
+    }
+
+    .secondsection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    .secondsection h1 {
+      font-size: 1.9rem
+    }
+
+    .secondsection .box {
+      background: white;
+      width: 85vw;
+      height: 2px;
+      margin: 56px -35px;
+      display: flex
+    }
+
+    .secondsection .vertical {
+      height: 63px;
+      width: 1px;
+      background-color: white;
+      margin: 0 96px;
+    }
+
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -32px;
+      left: -9px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: 50px;
+      width: 150px;
+      font-size: 14px;
+    }
+
+    .vertical-desc {
+      position: relative;
+      top: 60px;
+      width: 150px;
+      color: grey;
+      font-size: 12px;
+    }
+
+    footer {
+      background-color: rgb(26, 24, 33);
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+
+    .footer ul {
+      list-style: none;
+    }
+
+    .footer>div {
+      width: 223px;
+    }
+
+    footer .footer-rights {
+      text-align: center;
+      padding: 12px 0;
+      color: grey;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Spider's-Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/"> Home </a></li>
+          <li><a href="/">Services </a></li>
+          <li><a href="/">Projects </a></li>
+          <li><a href="/">Contact us </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, I am <span class="purple">Spider-Man</span>
+        <div>and Iam a responsible</div>
+        <span id="element"></span>
+        <div class="button">
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</button>
+        </div>
+      </div>
+      <div class="rightsection">
+        <img src="dev.png" alt="developer" />
+      </div>
+    </section>
+    <hr />
+    <section class="secondsection">
+      <span class="text-grey" style="color: #a984d1;">What I have done so far</span>
+      <h1>Past Experiance</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="dev1.png" alt="">
+          <div class="vertical-title">
+            Html-Developer (2010-2012)</div>
+          <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam tempora, molestias
+            quas eius consequatur vel impedit debitis, maxime optio possimus, est nisi ducimus.</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="facebook.png" alt="">
+          <div class="vertical-title">
+            Node.js Developer (2012-2014)</div>
+          <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam tempora, molestias
+            quas eius consequatur vel impedit debitis, maxime optio possimus, est nisi ducimus.</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="">
+          <div class="vertical-title">
+            UX and UI Designer <div>(2012-2014) </div>
+          </div>
+          <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam tempora, molestias
+            quas eius consequatur vel impedit debitis, maxime optio possimus, est nisi ducimus.</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="insta.png" alt="">
+          <div class="vertical-title">
+            Node.js Developer (2012-2014)</div>
+          <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam tempora, molestias
+            quas eius consequatur vel impedit debitis, maxime optio possimus, est nisi ducimus.</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="twitter.png" alt="">
+          <div class="vertical-title">
+            Node.js Developer (2012-2014)</div>
+          <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam tempora, molestias
+            quas eius consequatur vel impedit debitis, maxime optio possimus, est nisi ducimus.</div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="youtube.png" alt="">
+          <div class="vertical-title">
+            Node.js Developer (2012-2014)</div>
+          <div class="vertical-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam tempora, molestias
+            quas eius consequatur vel impedit debitis, maxime optio possimus, est nisi ducimus.</div>
+        </div>
+
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="fis-footer">
+        <h3>The-End porfolio</h3>
+      </div>
+      <div class="sec-footer">
+        <ul>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+        </ul>
+
+      </div>
+      <div class="thi-footer">
+        <ul>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+        </ul>
+
+      </div>
+      <div class="for-footer">
+        <ul>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="footer-rights">
+      Copyrights &#169; Spiderwebdev.com | All rights reserved
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "Web-Developer",
+        "Graphic-Designer", "Video-Editor", "Web-Designer",
+      ],
+      typeSpeed: 69,
+    });
+  </script>
+</body>
+
+</html>
